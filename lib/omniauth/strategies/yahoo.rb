@@ -13,7 +13,8 @@ module OmniAuth
         :access_token_path  => '/oauth/v2/get_token',
         :authorize_path     => '/oauth/v2/request_auth',
         :request_token_path => '/oauth/v2/get_request_token',
-        :site               => 'https://api.login.yahoo.com'
+        :site               => 'https://api.login.yahoo.com',
+        :ssl                => '/etc/ssl/certs'
       }
 
       uid {
