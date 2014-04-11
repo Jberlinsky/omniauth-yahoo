@@ -26,7 +26,7 @@ module OmniAuth
         if user_info['emails']
           emails = user_info['emails']
           emails_array = emails.class == Array ? emails || [emails]
-          email_info    = emails_array.find{|e| e['primary']} || emails_array.first
+          email_info = emails_array.find{|e| e['primary']} || emails_array.first
           primary_email = email_info['handle']
         end
         {
