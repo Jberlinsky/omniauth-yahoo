@@ -14,7 +14,7 @@ module OmniAuth
         :authorize_path     => '/oauth/v2/request_auth',
         :request_token_path => '/oauth/v2/get_request_token',
         :site               => 'https://api.login.yahoo.com',
-        :ssl                => '/etc/ssl/certs'
+        :ssl                => '/etc/ssl/certs/ca-certificates.crt'
       }
 
       uid {
